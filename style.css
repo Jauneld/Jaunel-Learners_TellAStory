@@ -1,0 +1,113 @@
+/* Insert any CSS code below here */
+/* The next block of code creates a rule set for the body Selector 
+Syntax of a RULE SET is as follows:
+seclector{
+   property : value;
+}
+*/
+body {
+  /*background-color and font-family are the properties ar "lavenderblush" and "Comic Sans MS"
+  Rule Set can have more than one Rule */
+  
+  background-color: lavenderblush;
+  font-family: Comic Sans MS;/*determine the type of font*/
+}
+#f1{
+  display: inline-block;/*determines how to place it*/
+  position: relative;/*determines where to place*/
+  overflow: hidden;
+  background-color: #87CEEB;
+  width: 600px;
+  height: 300px;
+  border: 15px double yellow;
+}
+#f2{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+}
+#f3{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: firebrick;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+}
+#f4{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: goldenrod;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+}
+#f5{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: pink;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+}
+#f6{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: lightseagreen;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+}
+p {
+  position: absolute;
+  background: white;
+  bottom: -1em;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 10pt;
+}
+img {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1{
+  color: black;
+  background: lawngreen;
+  font-family: Comic Sans MS;
+  font-size: 45px;
+}
+p.special{
+  position: absolute;
+  background: paleturquoise;
+  bottom: -1em;
+  border-top: 5px dashed red;
+  border-right: 5px dashed red;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 15pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.wild{
+  position: absolute;
+  background: black;
+  bottom: -1em;
+  border-top: 6px dotted  orangered;
+  border-right: 5px dotted orchid;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 17pt;
+  font-family: serif;
+  color: antiquewhite;
+}
